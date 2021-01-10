@@ -1,0 +1,5 @@
+node_modules
+.env
+tests
+yarn-error.log
+yarn.lock

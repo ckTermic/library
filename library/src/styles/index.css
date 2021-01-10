@@ -1,0 +1,15 @@
+/* global css rules */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #c6c5b9;
+}

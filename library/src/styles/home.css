@@ -1,0 +1,57 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+  .home-container {
+    flex-direction: row;
+  }
+}
+
+.stat-container {
+  flex: 1;
+  background-color: lightblue;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 0.5em;
+}
+
+.update-container {
+  flex: 1;
+  background-color: darkkhaki;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 0.5em;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.stats {
+  border: 0.1em solid;
+  border-radius: 0.5em;
+  padding: 10px;
+  background-color: lightcyan;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.update {
+  display: flex;
+  flex-wrap: wrap;
+  border: 0.1em solid;
+  border-radius: 0.5em;
+  padding: 10px;
+  background-color: rgb(128, 167, 71);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.update-children {
+  border: 0.1em solid;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  padding: 0.5em;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, 0.2);
+}

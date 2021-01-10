@@ -1,0 +1,30 @@
+.searchComponent {
+  background-color: #4a6d7c;
+  margin-bottom: 0.5em;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+#searchBox {
+  width: 100%;
+  text-align: center;
+}
+
+.search {
+  margin: 0 auto;
+  display: block;
+}
+
+.searchBar {
+  padding: 0.5em;
+  border-radius: 0.7em;
+  border: solid white;
+}
+
+.submitButton {
+  background-color: blueviolet;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin: 0.3em;
+}

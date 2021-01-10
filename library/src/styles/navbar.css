@@ -1,0 +1,30 @@
+.nav-container {
+  display: flex;
+  padding: 1em;
+  list-style-type: none;
+  background-color: #62929e;
+  border: 2px solid;
+  border-radius: 0.2em;
+}
+
+a {
+  display: block;
+  padding: 0.5em;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 0.2em;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: coral;
+}
+
+li + li {
+  margin-left: 1.5em;
+}
+
+.nav-right {
+  margin-left: auto;
+}
